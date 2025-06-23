@@ -1,0 +1,12 @@
+image:
+  repository: quasarcelestio/task-1.0
+  tag: 01acaf8fd6b7280ecbfbe2c4c6f0f8737bf8067e
+  pullPolicy: IfNotPresent
+
+replicaCount: 1
+
+service:
+  type: NodePort
+  port: 9000
+  targetPort: 9000
+  nodePort: 30001
