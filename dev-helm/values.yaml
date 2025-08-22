@@ -1,6 +1,6 @@
 image:
   repository: quasarcelestio/task-1.0
-  tag: 4806b174ac660594b30da9a6e9e7977280bf6a02
+  tag: 42ddbf3ab1c168287af42bb87e894bda1037f6d3
   pullPolicy: IfNotPresent
 
 replicaCount: 1
